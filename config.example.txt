@@ -1,0 +1,19 @@
+->  This file will help to set search criteria according with information displayed on the monitored platform.
+    Due to the logistics context in this example we use source and destination.
+    Rates will use source|destination|rate values.
+
+
+# Source
+city, state
+city, state
+city, state
+
+# Destination
+city, state
+city, state
+city, state
+
+# Rates
+city, state|city, state|7000
+city, state|city, state|7500
+city, state|city, state|7700
