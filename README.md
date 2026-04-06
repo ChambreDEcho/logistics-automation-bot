@@ -1,42 +1,41 @@
 # Logistics Automation Bot
 
-Automation system designed to monitor logistics platforms in real time using Python and Selenium.
+Python-based automation tool for monitoring logistics load boards in real time using Selenium.
 
 ## Overview
-This project was created to automate repetitive monitoring tasks in logistics workflows, reducing manual effort and improving response time when relevant routes are detected.
+This project was developed to reduce repetitive manual monitoring of available freight loads. It automates the process of refreshing the platform, preparing the load view, reading route information, comparing it against configured origin and destination values, and triggering an alert when a match is found.
 
 ## Features
-- Automated page refresh
-- Route matching based on configurable origin and destination values
-- Real-time alerting when a match is detected
-- Automated interaction flow for operational steps
-- Configuration-based logic for adaptable workflows
+- Automated browser interaction with Selenium
+- Repeated refresh of available load listings
+- Dynamic detection of visible rows
+- Origin and destination matching from a configuration file
+- Logging of key events and errors
+- Visual and sound alert when a matching route is detected
 
 ## Technologies
 - Python
 - Selenium
-- ChromeDriver
-- Configuration files
-- Process automation
+- Tkinter
+- Browser automation
+- Configuration-based route matching
+
+## Workflow
+1. Open the logistics platform
+2. Wait for user login
+3. Open the loads section
+4. Adjust the visible load filter
+5. Refresh results
+6. Read available rows safely
+7. Extract origin and destination information
+8. Compare values against configured routes
+9. Trigger an alert when a match is found
 
 ## Use Case
-The bot monitors a logistics platform, checks available loads, compares route information against predefined criteria, and triggers an alert when a match is found. It can also assist with automated interaction steps within the workflow.
-
-## Project Structure
-- `main.py` → main execution script
-- `utils/` → helper functions
-- `docs/` → workflow documentation
-- `screenshots/` → visual evidence of the project
-- `config.example.txt` → sample editable configuration
-
-## Goals
-- Reduce manual monitoring
-- Improve operational response time
-- Standardize repetitive tasks
-- Demonstrate practical automation skills
+This tool is intended to support operational workflows by reducing the need for constant manual refresh and route checking in logistics environments.
 
 ## Notes
-This repository is intended for educational and portfolio purposes. Sensitive credentials, private business data, and production-specific values should never be uploaded.
+This repository is shared for educational and portfolio purposes. Sensitive credentials, production-specific data, private business information, and live operational details are intentionally excluded.
 
-## Author
-ChambreDEcho April 5th 2026
+## Author and Date
+ChambreDEcho  5th April 2026
