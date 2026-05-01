@@ -1,4 +1,8 @@
 # Logistics Automation Bot
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Selenium](https://img.shields.io/badge/Selenium-Automation-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![License](https://img.shields.io/badge/License-Portfolio-lightgrey)
 
 Python-based automation tool for monitoring logistics load boards in real time using Selenium.
 
